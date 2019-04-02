@@ -1,0 +1,305 @@
+    1  pwd
+    2  ls
+    3  ls-F
+    4  ls -F
+    5  man ls
+    6  man ls
+    7  man ls
+    8  ls --help
+    9  q
+   10  ls -l
+   11  q
+   12  ls -h
+   13  ls /
+   14  ls /bin
+   15  ls /Users
+   16  pwd
+   17  ls Desktop/data-shell
+   18  ls ~/Desktop/data-shell
+   19  pwd
+   20  ls Users
+   21  ls ~/Users
+   22  pwd
+   23  cd Desktop
+   24  pwd
+   25  cd/bin
+   26  cd /bin
+   27  pwd
+   28  cd /Desktop
+   29  ls
+   30  cd Desktop
+   31  cd /Desktop
+   32  cd Desktop
+   33  pwd
+   34  cd ~/Desktop
+   35  pwd
+   36  ls /Desktop/ data-shell
+   37  pwd
+   38  cd ..
+   39  pwd
+   40  cd ~/Desktop
+   41  pwd
+   42  ls Desktop/data-shell
+   43  ls Desktop/ data-shell
+   44  cd ~/Desktop/ data-shell/ data
+   45  cd Desktop/data-shell
+   46  pwd
+   47  cd ~/Desktop/ data-shell
+   48  pwd
+   49  cd ~/Desktop/data-shell
+   50  pwd
+   51  cd ~/Desktop/cd..
+   52  cd ~/Desktop
+   53  pwd
+   54  ls -F
+   55  pwd
+   56  ls-F..
+   57  pwd
+   58  ls -r
+   59  pwd
+   60  cd ~/Desktop/data-shell
+   61  pwd
+   62  ls
+   63  mkdir thesis
+   64  ls
+   65  mkdir thesis/images
+   66  ls
+   67  ls thesis
+   68  cd thesis
+   69  ls
+   70  nano draft
+   71  ls
+   72  nano draft.txt
+   73  nano draft.txt
+   74  ls
+   75  cat draft.txt
+   76  mv draft.txt waiting.txt
+   77  ls
+   78  cat waiting.txt
+   79  pwd
+   80  ls
+   81  mv waiting.txt images/wait1.txt
+   82  ls
+   83  ls images
+   84  mv images/wait1.txt .
+   85  ls images
+   86  cp wait1.txt stillwaiting.txt
+   87  ls
+   88  cp wait1.txt images/
+   89  cp images images_backup
+   90  cp -r images images_backup
+   91  ls
+   92  ls images
+   93  ls images_backup
+   94  cp wait1.txt wait2.txt
+   95  ls
+   96  ls images
+   97  ls images_backup
+   98  ls
+   99  rm wait2.txt
+  100  rm wait1.txt
+  101  ls
+  102  cp stillwaiting.txt wait3.txt
+  103  ls
+  104  rm -i wait3.txt
+  105  ls
+  106  mls images
+  107  ls images
+  108  ls images_backup
+  109  cp wait1.txt wait2.txt
+  110  pwd
+  111  ls
+  112  ls images
+  113  cp /images/wait1.txt
+  114  pwd
+  115  ls data-shell
+  116  ls ..data-shell
+  117  pwd
+  118  ls
+  119  ls images
+  120  cp images/wait1.txt .
+  121  ls
+  122  rm wait1.txt 
+  123  cp images
+  124  cd images
+  125  ls
+  126  cp wait1.txt ../
+  127  cp wait1.txt ../images_backup/
+  128  pwd
+  129  cd thesis
+  130  cd ~/thesis
+  131  cd ~/Desktop/data-shell/thesis
+  132  pwd
+  133  ls
+  134  cp stillwaiting.txt wait1.txt 
+  135  ls
+  136  pwd
+  137  cd ../molecules
+  138  pwd
+  139  wc *.pdb
+  140  wc --help
+  141  wc -l
+  142  wc -l *.pdb > lengths.txt
+  143  ls
+  144  cat lengths.txt
+  145  sort lengths.txt
+  146  sort -n lengths.txt
+  147  sort -n lengths.txt > sorted_ lengths.txt
+  148  head -n3 sorted_lengths.txt
+  149  ls
+  150  sort -n lengths.txt > sorted_lengths.txt
+  151  ls
+  152  head -n3 sorted_lengths.txt
+  153  wc *.pdb|sort -h
+  154  pwd
+  155  cd ../data
+  156  pwd
+  157  ls
+  158  cat animals.txt | head -n 5 | tail -n 3 | sort -r > final.txt
+  159  cat final.txt
+  160  cat animals.txt | head -n 5
+  161  cat animals.txt | head -n 5 | tail -n 3
+  162  cat animals.txt | head -n 5 | tail -n 3 | sort -r
+  163  cut -d , -f 2 animals.txt
+  164  cut -d , -f 2 animals.txt| sort | uniq
+  165  pwd
+  166  ls
+  167  cd ../data-shell
+  168  cd..molecules
+  169  ls data-shell
+  170  pwd
+  171  cd ../Deskttop
+  172  cd ~/Desktop/data-shell
+  173  pwd
+  174  ls
+  175  cd molecules
+  176  ls
+  177  cat octane.pdb
+  178  cat pentane.pdb | head -n10 |tail -n5
+  179  nano middle.sh
+  180  cat middle.sh
+  181  bash middle.sh
+  182  bash middle.sh
+  183  bash middle.sh
+  184  pwd
+  185  ls data-shell
+  186  ls ../data-shell
+  187  cd ../
+  188  ls
+  189  cd molecules
+  190  bash middle.sh
+  191  bash middle.sh
+  192  bash middle.sh
+  193  nano arguments.sh
+  194  bash arguments.sh
+  195  bash arguments.sh foo
+  196  bash arguments.sh foo bay baz
+  197  bash arguments.sh foo
+  198  bash middle.sh
+  199  bash middle.sh octane.pdb
+  200  bash middle.sh octane.pdb 3 8
+  201  bash  middle.sh pentane.pdb 5 10
+  202  bash  middle.sh pentane.pdb 5 10
+  203  bash middle.sh pentane.pdb 5 10
+  204  bash middle.sh pentane.pdb 5 10
+  205  bash middle.sh pentane.pdb 5 10
+  206  bash loop.sh
+  207  bash loop.sh
+  208  bash loop.sh
+  209  echo {a..k}
+  210  ls
+  211  echo 0{1..9} {10..12}
+  212  bash loop.sh
+  213  bash loop.sh
+  214  bash loop.sh
+  215  bash loop.sh
+  216  ls
+  217  bash loop.sh
+  218  ls
+  219  bash loop.sh
+  220  ls
+  221  bash loop.sh 1 2 3
+  222  bash loop.sh *.pdb
+  223  echo bash loop.sh*.pdb
+  224  echo bash loop.sh *.pdb
+  225  ls
+  226  ls 2018-01
+  227  ptw
+  228  pwd
+  229  cd ../
+  230  cd writing
+  231  ls
+  232  cat haiku.txt
+  233  grep not haiku.txt
+  234  grep The haiku.txt
+  235  grep -i -w the haiku.txt
+  236  grep -i -w -n The haiku.txt
+  237  grep -i -n The haiku.txt --color
+  238  cat haiku.txt
+  239  grep -i ^.o haiku.txt --color
+  240  cd../writing
+  241  pwd
+  242  ls
+  243  cd data
+  244  ls
+  245  grep The LittleWomen.txt
+  246  grep The LittleWomen.txt | wc -l
+  247  grep Jo LittleWomen.txt | wc -l
+  248  grep Amy LittleWomen.txt | wx-l
+  249  grep Amy LittleWomen.txt | wc-l
+  250  grep Amy LittleWomen.txt | wc -l
+  251  bash sis.sh
+  252  mv sis.sh molecules/.
+  253  mv ../../molecules/sis.sh .
+  254  ls
+  255  bash sis.sh
+  256  grep --help
+  257  git config --global user.name "pani Hraskova"
+  258  git config --global user.email "pekova.cikova@gmail.com"
+  259  git config --core.editor "nano -w"
+  260  git config --global core.editor "nano -w"
+  261  git status
+  262  pwd
+  263  cd ../..
+  264  mkdir planets
+  265  cd planets/
+  266  git init
+  267  nano mars.txt
+  268  git status
+  269  git add mars.txt
+  270  ls
+  271  nano mars.txt
+  272  git status
+  273  ls
+  274  git commit -m
+  275  git commit -m "Add mars info"
+  276  git log
+  277  git log -p
+  278  history -5
+  279  git log
+  280  nano mars.txt
+  281  git status
+  282  git add mars.txt
+  283  git commit -m"second edit"
+  284  git log
+  285  git status
+  286  git log
+  287  git show
+  288  nano mars.txt
+  289  git status
+  290  git add mars.txt
+  291  git status
+  292  git commit -m "the last change added"
+  293  git show
+  294  git mv mars.txt mars2.txt
+  295  git status
+  296  git show
+  297  pwd
+  298  ls
+  299  nano mars2.txt
+  300  git add mars2.txt
+  301  git commit mars2.txt
+  302  git log
+  303  git log --oneline
+  304  history
+  305  history > history_day1.txt
